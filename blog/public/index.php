@@ -13,8 +13,6 @@
 
 $app = require __DIR__.'/../bootstrap/app.php';
 
-$url = "https://discord.com/channels/@me"; // website tujuan
-
 /*
 |--------------------------------------------------------------------------
 | Run The Application
@@ -26,4 +24,5 @@ $url = "https://discord.com/channels/@me"; // website tujuan
 | and wonderful application we have prepared for them.
 |
 */
+
 $app->run();
