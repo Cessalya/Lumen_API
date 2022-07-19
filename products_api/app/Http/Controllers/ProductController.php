@@ -29,6 +29,8 @@ class ProductController extends Controller
         // image upload
         if($request->hasFile('photo')) {
 
+
+            
         $allowedfileExtension=['pdf','jpg','png'];
         $file = $request->file('photo');
         $extenstion = $file->getClientOriginalExtension();
